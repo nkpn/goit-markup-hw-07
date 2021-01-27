@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+ 
+<body class="page">
+    <header class="header">
+    <div class="container">
+        <nav class="main-nav">
+            <a class="logo link" href="../goit-markup-hw-06/index.html"><span class="web">Web</span><span class="studio">Studio</span></a>
+            <ul class="site-nav list">
+            <li class="nav-item">  
+                <a class="link nav-link current" href="../goit-markup-hw-06/index.html">Студия</a>
+            </li>
+            <li class="nav-item">
+                <a class="link nav-link" href="../goit-markup-hw-06/portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-item">
+                <a class="link nav-link" href="">Контакты</a>
+            </li>
+            </ul>
+        </nav>
+
+        <div class="auth-nav"> 
+        <a class="address-header link" href="mailto:info@devstudio.com">
+            <svg class="header-logo link" height="12" width="16">
+                <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+        </a>
+        <a class="address-header link" href="tel:+380961111111">
+            <svg class="header-logo link" height="12" width="16">
+                <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11
+        </a>
+        </div>
+    </div>
+    </header>
+    
+    <main>  
+
+    <!-- H1 Section / HERO-->
+    <section class="h1-section overlay">
+       <div class="heading-container">
+            <h1 class="h1-section-title">Эффективные решения для вашего бизнеса</h1>
+            <button class="button-order" data-modal-open type="button">Заказать услугу</button> 
+        </div>
+    </section>
+
+    <!-- Features section-->
+    <section class="features">
+    <div class="container">
+        <h2 style="display: none;">Наши преимущества</h2>
+        <ul class="features-list">
+            <li class="features-item">
+                <div class="features-icon-container">
+                    <svg class="features-icon" width="70" height="70">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-sputnik"></use>
+                    </svg>
+                </div>
+                <h3 class="features-title">Внимание к деталям</h3>
+                <p class="text">Идейные соображения, а также </br>начало повседневной работы по </br>формированию позиции.</p>
+            </li>
+            <li class="features-item">
+                <div class="features-icon-container">
+                    <svg class="features-icon" width="70" height="70"> 
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-clock"></use>
+                    </svg>
+                </div>
+                <h3 class="features-title">Пунктуальность</h3>
+                <p class="text">Задача организации, в особенности </br>же рамки и место обучения кадров </br>влечет за собой.</p>
+            </li>
+            <li class="features-item i">
+                <div class="features-icon-container">
+                    <svg class="features-icon" width="70" height="70">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-diagram"></use>
+                    </svg>
+                </div>
+                <h3 class="features-title">Планирование</h3>
+                <p class="text">Равным образом консультация с </br>широким активом в значительной </br>степени обуславливает.</p>
+            </li>
+            <li class="features-item icon">
+                <div class="features-icon-container">
+                    <svg class="features-icon" width="70" height="70">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-astronaut"></use>
+                    </svg>
+                </div>
+                <h3 class="features-title">Современные технологии</h3>
+                <p class="text">Значимость этих проблем настолько </br>очевидна, что реализация плановых </br>заданий.</p>
+            </li>
+        </ul>
+    </div>
+    </section>
+    
+    <!-- What are we doing section-->
+
+    <section class="what-are-we-doing">
+        <div class="container">
+        <h2 class="h2-title">Чем мы занимаемся</h2>
+        <ul class="card-list">
+       <li class="what-are-we-list">
+           <img class="pictures-of-equipment" src="../goit-markup-hw-06/images/tablet.png" alt="tablet">
+            <div class="thumb">
+            <h3>Десктопные приложения</h3>
+            </div>
+        </li> 
+       <li class="what-are-we-list">
+           <img class="pictures-of-equipment" src="../goit-markup-hw-06/images/mobile.png" alt="mobile and laptop">
+        <div class="thumb">
+        <h3>Мобильные приложения</h3>
+        </div>           
+        </li> 
+       <li class="what-are-we-list">
+           <img class="pictures-of-equipment" src="../goit-markup-hw-06/images/tablet2.png" alt="tablet">
+            <div class="thumb">
+            <h3>Дизайнерские решения</h3>
+            </div>
+        </li> 
+        </ul>
+    </div>
+    </section>
+    
+    
+    <!-- Our team -->
+
+    <section class="our-team">
+    <div class="container">
+        <h2 class="h2-title">Наша команда</h2>
+
+        <ul class="card-list">
+
+        <li class="card-person">
+            <img class="photos-person" src="../goit-markup-hw-06/images/Igor.jpg" alt="Igor Demianenko" width="270px" height="260px">
+            <h3 class="name">Игорь Демьяненко</h3>
+            <p class="text">Product Designer</p>
+
+            <ul class="social-list">
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-twitter" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-facebook" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-linkedin" ></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="card-person">
+            <img class="photos-person" src="../goit-markup-hw-06/images/Olga.jpg" alt="Olga Repina" width="270px" height="260px">
+            <h3 class="name">Ольга Репина</h3>
+            <p class="text">Frontend Developer</p>
+
+            <ul class="social-list">
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-twitter" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-facebook" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-linkedin" ></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="card-person">
+            <img class="photos-person" src="../goit-markup-hw-06/images/Nikolai.jpg" alt="Nikolai Tarasov" width="270px" height="260px">
+            <h3 class="name">Николай Тарасов</h3>
+            <p class="text">Marketing</p>
+
+            <ul class="social-list">
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-twitter" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-facebook" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-linkedin" ></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="card-person">
+            <img class="photos-person" src="../goit-markup-hw-06/images/Mikhail.jpg" alt="Mikhail Ermakov" width="270px" height="260px">
+            <h3 class="name">Михаил Ермаков</h3>
+            <p class="text">UI Designer</p>
+            <ul class="social-list">
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-twitter" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-facebook" ></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-items">
+                    <a class="master-links" href="#">
+                        <svg class="master-icon" height="20px" width="20px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-linkedin" ></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        </ul>
+    </div>
+    </section>
+
+
+    <!-- CUSTOMERS -->
+    <section class="customers">
+        <div class="container">
+            <h2 class="h2-title">Постоянные клиенты</h2>
+            <ul class="customers-list">
+                <li class="customers-item" tabindex="0">
+                    <div class="customers-item-container">
+                        <svg class="customers-icon" height="45px" width="50px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-logo-1"></use>
+                        </svg>
+                    </div>
+                </li>
+
+                <li class="customers-item" tabindex="0">
+                    <div class="customers-item-container">
+                        <svg class="customers-icon" height="40px" width="52px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-logo-2"></use>
+                        </svg>
+                    </div>
+                </li>
+
+                <li class="customers-item" tabindex="0">
+                    <div class="customers-item-container">
+                        <svg class="customers-icon" height="41" width="43">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-logo-4"></use>
+                        </svg>
+                    </div>
+                </li>
+
+                <li class="customers-item" tabindex="0">
+                    <div class="customers-item-container">
+                        <svg class="customers-icon" height="42px" width="80px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-logo-3"></use>
+                        </svg>
+                    </div>
+                </li>
+
+                <li class="customers-item" tabindex="0">
+                    <div class="customers-item-container">
+                        <svg class="customers-icon" height="59px" width="47px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-logo-5"></use>
+                        </svg>
+                        
+                    </div>
+                </li>
+
+                <li class="customers-item" tabindex="0">
+                    <div class="customers-item-container">
+                        <svg class="customers-icon" height="45px" width="88px">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-logo-6"></use>
+                        </svg>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </section>
+
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+    <div class="footer-address">
+        <ul class="footer-list">
+        <li class="footer-item-1"><a href="../goit-markup-hw-06/index.html"><span class="web-footer">Web</span><span class="studio-footer">Studio</span></a></li>
+        <li class="footer-item"><address class="address">г. Киев, пр-т Леси Украинки, 26</address></li>
+        <li class="footer-item"><div><a class="email-footer" href="mailto:info@example.com">info@example.com</a></div></li>
+        <li class="footer-item"><div><a class="phone-number-footer" href="tel:+380991111111">+38 099 111 11 11</a></div></li>
+        </ul>   
+    </div> 
+    <div class="join-us">
+        <h3 class="footer-social">присоединяйтесь</h3>
+        <ul class="social-footer list">
+            <li class="social-items">
+                <a class="master-links footer-links" href="#">
+                    <svg class="master-icon" height="20px" width="20px">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-items">
+                <a class="master-links footer-links" href="#">
+                    <svg class="master-icon" height="20px" width="20px">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-twitter" ></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-items">
+                <a class="master-links footer-links" href="#">
+                    <svg class="master-icon" height="20px" width="20px">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-facebook" ></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social-items">
+                <a class="master-links footer-links" href="#">
+                    <svg class="master-icon" height="20px" width="20px">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-linkedin" ></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="subscribe">
+        <h3 class="footer-social">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
+
+        <form class="form form-footer">
+            <label class=""></label> 
+                <input 
+                class="form-footer-input"
+                type="email" 
+                name="email"
+                placeholder="E-mail"/>
+                <button class="button-subscribe" type="submit">
+                    <p>Подписаться</p>
+                        <svg height="24" width="24">
+                            <use href="../goit-markup-hw-06/images/symbol-defs.svg#icon-send"></use>
+                        </svg>
+                </button>
+        </form>
+    </div>
+
+    </div>
+
+    <!-- MODAL WINDOW -->
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+                <button class="modal-button" data-modal-close>
+                    <svg height="11" width="11">
+                        <use href="../goit-markup-hw-06/images/symbol-defs.svg#x"></use>
+                    </svg>
+                   <!--<img src="../goit-markup-hw-06/images/x.svg" alt="X">-->
+                </button>
+                <p class="modal-head-text">Оставьте свои данные, мы вам перезвоним</p>
+            
+                <form class="form">
+                    <div class="form-field name-input">
+                        <p class="form-text">Имя</p>
+                        <label class="form-label"></label>
+                        <div class="container-input">
+                        <input 
+                        class="form-input"
+                        type="text" 
+                        name="name"/>
+                        <div class="input-img">
+                            <svg class="svg-modal" height="12" width="12">
+                                <use href="../goit-markup-hw-06/images/symbol-defs.svg#person-input"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    </div>
+
+        
+                    <div class="form-field tel">
+                    <div class="form-text">Телефон</div>
+                    <label class="form-label"></label>
+                    <div class="container-input">
+                    <input 
+                        class="form-input"
+                        type="tel" 
+                        name="tel"/>   
+                        <div class="input-img">
+                            <svg class="svg-modal" height="12" width="12">
+                                <use href="../goit-markup-hw-06/images/symbol-defs.svg#tel-input"></use>
+                            </svg>
+                        </div>
+                    </div>
+                    </div>
+        
+                    <div class="form-field email">
+                        <p class="form-text">Почта</p>
+                        <label class="form-label"></label> 
+                        <div class="container-input">
+                        <input 
+                        class="form-input"
+                        type="email" 
+                        name="email"/>
+                        <div class="input-img">
+                            <svg class="svg-modal" height="12" width="12">
+                                <use href="../goit-markup-hw-06/images/symbol-defs.svg#mail-input"></use>
+                            </svg>
+                        </div>  
+                    </div>
+                    </div>
+        
+                    <div class="form-field comment">
+                        <p class="form-text">Комментарий</p>
+                        <label class="form-label"></label>
+                        <textarea class="form-input textarea" name="comment" placeholder="Введите текст"></textarea>
+                    </div>
+                    
+                    <div class="checkbox-container">
+                        <label>
+                            <span class="text-agreement">Соглашаюсь с рассылкой и принимаю <a class="agreement-link link" href="#">Условия договора</a></span>
+                            <input type="checkbox" class="check" >
+
+                            <div class="checkbox-icon">
+                                 <!-- <svg class="svg-modal" height="8" width="11">
+                                    <use href="../goit-markup-hw-06/images/symbol-defs.svg#checkbox"></use>
+                                </svg> -->
+                            </div>
+                        </label>
+                    </div>
+
+                    <div class="center"><button type="submit" class="form-button">Отправить</button></div>
+                </form>
+
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
