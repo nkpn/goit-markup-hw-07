@@ -151,6 +151,10 @@
         margin-right: 10px;
     }
 
+    .social-items:not(:last-child){
+        margin-right: 10px;
+    }
+
     .master-links{
         display: flex;
         align-items: center;

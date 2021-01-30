@@ -1118,6 +1118,10 @@ body {
   margin-right: 10px;
 }
 
+.footer .social-items:not(:last-child) {
+  margin-right: 10px;
+}
+
 .footer .master-links {
   display: -webkit-box;
   display: -ms-flexbox;
