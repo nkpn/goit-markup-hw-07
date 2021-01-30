@@ -1319,7 +1319,7 @@ body {
   margin: 0;
 }
 
-.portfolio .portfolio__link:hover .portfolio-thumb,
+.portfolio .portfolio__link:hover .portfolio__thumb,
 .portfolio .portfolio__link:focus .portfolio__thumb {
   -webkit-transform: translateY(0);
           transform: translateY(0);

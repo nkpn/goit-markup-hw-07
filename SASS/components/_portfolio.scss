@@ -49,14 +49,14 @@
         transition-property: transform;
         transition-duration: $animation-duration;
         transition-timing-function: $animation-timing-function;
-      }
+  }
       
     .portfolio__link{
         display: block;
         width: 100%;
         margin: 0;
 
-        &:hover .portfolio-thumb,
+        &:hover .portfolio__thumb,
         &:focus .portfolio__thumb{
             transform: translateY(0);
         }
